@@ -58,7 +58,7 @@ describe('Signup', () => {
 
         before(function(){
             signupPage.go()
-            signupPage.submit
+            signupPage.submit()
 
         })
         messages.forEach(function(msg){
